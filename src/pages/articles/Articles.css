@@ -1,0 +1,92 @@
+.searchInput {
+  border-radius: 0 10px 10px 0;
+  padding: 8px;
+  border: 1px solid gray;
+  width: 65%;
+}
+.searchBtn {
+  all: unset;
+  border-radius: 10px 0 0 10px;
+  padding: 8px;
+  border: 1px solid gray;
+  background-color: lightblue;
+  width: 15%;
+}
+.searchBtn:hover {
+  background-color: lightgray;
+}
+.accordion-button {
+  width: 200px;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  color: inherit;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+  outline: none !important;
+  border-color: transparent !important;
+  font-weight: bold;
+  color: black;
+}
+
+.accordion-button::after {
+  background-image: none !important;
+  background-color: transparent !important;
+  border: none !important;
+  content: none !important;
+}
+.accordion-header {
+  all: unset;
+  width: 150px;
+  color: black;
+}
+.accordion-button {
+  color: #000 !important;
+  font-weight: bold;
+}
+
+.loader-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.loader {
+  width: 100px;
+  margin: 50px;
+  aspect-ratio: 1;
+  border: 15px solid #ddd;
+  border-radius: 50%;
+  position: relative;
+}
+.loader::before {
+  content: "";
+  position: absolute;
+  inset: -15px;
+  border-radius: 50%;
+  border: 15px solid #2d1f94;
+  animation: l18 2s infinite linear;
+}
+@keyframes l18 {
+  0% {
+    clip-path: polygon(50% 50%, 0 0, 0 0, 0 0, 0 0, 0 0);
+  }
+  25% {
+    clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 0, 100% 0, 100% 0);
+  }
+  50% {
+    clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 100% 100%, 100% 100%);
+  }
+  75% {
+    clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 0 100%, 0 100%);
+  }
+  100% {
+    clip-path: polygon(50% 50%, 0 0, 100% 0, 100% 100%, 0 100%, 0 0);
+  }
+}

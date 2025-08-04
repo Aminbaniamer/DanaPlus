@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Yekan";
+  src: url(./assets/fonts/Yekan.ttf);
+}
+@font-face {
+  font-family: "Parasto";
+  src: url(./assets//fonts/Parastoo.ttf);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Yekan";
+}
+.Parasto {
+  font-family: "Parasto";
+}

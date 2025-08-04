@@ -1,0 +1,6 @@
+.heroBoxContainer {
+  height: 80px;
+  width: 220px;
+  background-color: white;
+  border-radius: 30% 70% 57% 43% / 48% 44% 56% 52%;
+}

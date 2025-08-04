@@ -1,0 +1,14 @@
+.link-btn {
+  all: unset;
+  display: inline-block;
+
+  color: #6c63ff;
+  cursor: pointer;
+  margin-left: 5px;
+  font-weight: bold;
+}
+.link-btn:hover {
+  transform: scale(1.03);
+  transition: all 0.2s;
+  color: #6c63ff;
+}
