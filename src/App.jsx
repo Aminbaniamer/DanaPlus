@@ -15,7 +15,7 @@ import AddCourse from "./pages/addcourse/AddCourse";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/DanaPlus">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
