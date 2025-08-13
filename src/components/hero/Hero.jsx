@@ -57,7 +57,7 @@ function Hero() {
           </h2>
           <Row className="g-3">
             {heroText.map((item) => (
-              <Col md="6" sm="6" xs="6">
+              <Col className="d-flex justify-content-center" md={6} sm={12}>
                 <HeroBox {...item} />
               </Col>
             ))}
